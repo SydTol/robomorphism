@@ -1,0 +1,22 @@
+
+(process:17060): Gtk-WARNING **: 13:51:05.113: Locale not supported by C library.
+	Using the fallback 'C' locale.
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/sydney/snap/skype/common/.cache/gio-modules/libgioremote-volume-monitor.so
+libgvfscommon.so: cannot open shared object file: No such file or directory
+Failed to load module: /home/sydney/snap/skype/common/.cache/gio-modules/libgvfsdbus.so
+libGL error: MESA-LOADER: failed to open nouveau (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+libGL error: failed to load driver: nouveau
+libGL error: MESA-LOADER: failed to open nouveau (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+libGL error: failed to load driver: nouveau
+libGL error: MESA-LOADER: failed to open swrast (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri)
+libGL error: failed to load driver: swrast
+ioctl failed for wlan0, errno = 19 (No such device)
+Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: S4lApi.js:67:33
+Remote event names: locale-change
+Fontconfig warning: "/etc/fonts/conf.avail/53-monospace-lcd-filter.conf", line 10: Having multiple values in <test> isn't supported and may not work as expected
+ioctl failed for wlan0, errno = 19 (No such device)
+ioctl failed for wlan0, errno = 19 (No such device)
+ioctl failed for wlan0, errno = 19 (No such device)
+ioctl failed for wlan0, errno = 19 (No such device)

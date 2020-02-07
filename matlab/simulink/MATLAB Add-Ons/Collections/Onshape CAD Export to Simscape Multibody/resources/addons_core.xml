@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addonCore>
+  <label>Onshape CAD Export to Simscape Multibody</label>
+  <version>1.0.0.0</version>
+  <type>zip</type>
+  <identifier>da3ae38d-b709-44c6-91e6-b95841eabc2d</identifier>
+  <createdBy name="Steve Miller"/>
+  <image>resources/screenshot.png</image>
+</addonCore>

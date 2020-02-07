@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                            version="2.0">
+   <Created by="Sydney Charitos" from="Onshape" on="11/15/19||10:17:03"
+            using="Simscape Multibody Exporter"/>
+   <ModelUnits length="millimeter" mass="kilogram"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="3LinkArm" uid="93983dec5a9554a29e9c186c"
+                 version="w-8eaf170e6c47a6a1399b861c">
+      <InstanceTree>
+         <Instance entityUid="JHD*:*293cfc444dd065cf789e9acc" name="Part 1 &lt;1&gt;"
+                   uid="Miy4+CUuhTPL7zpPK">
+            <Transform>
+               <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 -0.000000000 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JHD*:*fa0eb4852c1f3a55b668d8bb" name="Part 1 &lt;2&gt;"
+                   uid="MVq/yNYlF2htxlGR1">
+            <Transform>
+               <Rotation>-0.862718174 -0.505685033 0.000000000 -0.000000000 0.000000000 1.000000000 -0.505685033 0.862718174 -0.000000000 </Rotation>
+               <Translation>-0.121513855 0.010000000 -0.071225737 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JHD*:*fa0eb4852c1f3a55b668d8bb" name="Part 1 &lt;3&gt;"
+                   uid="MPhJtJnRjNJEKZpYV">
+            <Transform>
+               <Rotation>0.053870910 0.998547908 -0.000000000 -0.000000000 0.000000000 1.000000000 0.998547908 -0.053870910 0.000000000 </Rotation>
+               <Translation>-0.235439992 0.025000000 -0.001806001 </Translation>
+            </Transform>
+         </Instance>
+         <Instance entityUid="JHD*:*04731d3b44de3d5cfbdfdc5e" name="Part 1 &lt;4&gt;"
+                   uid="MaWz5RIQVVII+ByOr">
+            <Transform>
+               <Rotation>-0.999529680 0.030666242 0.000000000 0.000000000 0.000000000 -1.000000000 -0.030666242 -0.999529680 -0.000000000 </Rotation>
+               <Translation>-0.270932003 0.055000000 0.137517757 </Translation>
+            </Transform>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints>
+         <Weld name="Fastened1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>Miy4+CUuhTPL7zpPK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath/>
+               <Transform>
+                  <Rotation>0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Weld>
+         <Revolute name="Revolute1">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MVq/yNYlF2htxlGR1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>-0.140850000 -0.000000000 0.007500000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>Miy4+CUuhTPL7zpPK</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.017500000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Revolute2">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MVq/yNYlF2htxlGR1</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.140850000 -0.000000000 0.030000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MPhJtJnRjNJEKZpYV</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.140850000 -0.000000000 0.015000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Revolute3">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MPhJtJnRjNJEKZpYV</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.140850000 -0.000000000 0.030000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MaWz5RIQVVII+ByOr</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 </Rotation>
+                  <Translation>-0.043100000 -0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+      </Joints>
+   </RootAssembly>
+   <Assemblies/>
+   <Parts>
+      <Part name="Part 1" uid="JHD*:*04731d3b44de3d5cfbdfdc5e">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0784598932</Mass>
+            <CenterOfMass>0.004091660 -0.000000000 0.007500000 </CenterOfMass>
+            <Inertia>0.000004120 0.000060985 0.000062163 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Part 1.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Diffuse a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Specular a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Part 1" uid="JHD*:*293cfc444dd065cf789e9acc">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0626227408</Mass>
+            <CenterOfMass>-0.000000000 0.000000000 0.006486784 </CenterOfMass>
+            <Inertia>0.000010351 0.000010351 0.000017451 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Part 11.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Diffuse a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Specular a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Part 1" uid="JHD*:*fa0eb4852c1f3a55b668d8bb">
+         <ModelUnits length="millimeter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.250714913</Mass>
+            <CenterOfMass>0.008369060 -0.000000000 0.007945637 </CenterOfMass>
+            <Inertia>0.000014574 0.001838018 0.001839937 0.000000000 -0.000014802 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Part 12.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Diffuse a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Specular a="1.000000000" b="0.929411765" g="0.811764706" r="0.615686275"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>

@@ -1,0 +1,12 @@
+2019/11/20-13:51:40.379 42b4 Reusing MANIFEST /home/sydney/snap/skype/common/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/11/20-13:51:40.380 42b4 Recovering log #4
+2019/11/20-13:51:40.404 42b4 Reusing old log /home/sydney/snap/skype/common/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2019/11/20-14:51:43.255 3e51 Level-0 table #8: started
+2019/11/20-14:51:43.283 3e51 Level-0 table #8: 1502047 bytes OK
+2019/11/20-14:51:43.287 3e51 Delete type=0 #4
+2019/11/20-15:51:46.372 3e51 Compacting 1@1 + 1@2 files
+2019/11/20-15:51:46.401 3e51 Generated table #9@1: 2229 keys, 860929 bytes
+2019/11/20-15:51:46.401 3e51 Compacted 1@1 + 1@2 files => 860929 bytes
+2019/11/20-15:51:46.408 3e51 compacted to: files[ 0 0 1 0 0 0 0 ]
+2019/11/20-15:51:46.408 3e51 Delete type=2 #8
+2019/11/20-15:51:46.409 3e51 Delete type=2 #5
